@@ -35,3 +35,29 @@ console.log(typeof hello);
 let hello1 = null;
 console.log(hello1);
 console.log(typeof hello1); //it's a javaScript bug
+//symbol
+console.log(typeof Symbol("hasibul"));
+console.log(typeof Symbol("hasibulddd"));
+
+//big int
+console.log(typeof 1234n);
+console.log(typeof 45n);
+
+//concatenation
+console.log("bashir " + "ahamed");
+console.log("bashir" + " " + "ahamed");
+
+//template string
+console.log("bashir ahmed 'shohel");
+console.log(`this is the fact " Man is mortal"`);
+
+//length
+console.log(`this is the fact " Man is mortal"`.length);
+
+//indexof
+console.log(`this is the fact " Man is mortal"`[21]);
+console.log(
+  `this is the fact " Man is mortal"`[
+    `this is the fact " Man is mortal"`.length - 1
+  ]
+);
