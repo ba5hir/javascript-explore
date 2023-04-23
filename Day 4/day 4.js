@@ -61,3 +61,42 @@ console.log(
     `this is the fact " Man is mortal"`.length - 1
   ]
 );
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//variable declaration
+//var, let, const
+var myName = "Bashir";
+var fullName = myName + " Ahamed";
+console.log(fullName);
+
+let lastName = "Ahamed";
+console.log(myName + " " + lastName);
+
+const profession = "Doctor";
+console.log(myName + " " + lastName + " is a " + profession);
+
+//when you have to reassign(change) the variable value after declaration, using let
+//when you do not have to change the variable value after declaration, using const
+//95%+ time we will use, const
+
+//let can change own value
+lastName = "khan";
+//const can't change own value //produce error
+//profession = "student"
+console.log(myName + " " + lastName + " is a " + profession);
+
+//using template string
+const info = `${myName} ${lastName} is a ${profession}`;
+//console.log(`${myName} ${lastName} is a ${profession}`);
+console.log(info);
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//single line comment
+
+/* 
+
+multi line comment
+
+  */
