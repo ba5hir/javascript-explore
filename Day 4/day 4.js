@@ -5,7 +5,6 @@ console.log("hello world");
 console.log(typeof "my mane is bashir");
 console.log(typeof "hello world");
 
-
 //working with number
 console.log(26);
 console.log(10 + 23);
